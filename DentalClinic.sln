@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C6F55EA7-0B8C-4B04-8014-43B486E87631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6EAF171B-BB72-42E9-B581-44AB88B7F59E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{21A3AF07-06B4-4FFC-ADC4-0536C94ED49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A0A77920-615A-4C7B-812C-E55CC4DE33F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Domain", "Core\DentalClinic.Domain\DentalClinic.Domain.csproj", "{EC20D683-FB5D-4385-85E3-7A34D46E5337}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC20D683-FB5D-4385-85E3-7A34D46E5337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC20D683-FB5D-4385-85E3-7A34D46E5337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC20D683-FB5D-4385-85E3-7A34D46E5337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC20D683-FB5D-4385-85E3-7A34D46E5337}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC20D683-FB5D-4385-85E3-7A34D46E5337} = {21A3AF07-06B4-4FFC-ADC4-0536C94ED49F}
+	EndGlobalSection
+EndGlobal

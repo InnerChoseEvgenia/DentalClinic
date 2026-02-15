@@ -13,6 +13,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\DentalClinic.Application\DentalClinic.Application.csproj" />
     <ProjectReference Include="..\..\Core\DentalClinic.Domain\DentalClinic.Domain.csproj" />
   </ItemGroup>
 

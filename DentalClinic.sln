@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Domain", "Core\DentalClinic.Domain\DentalClinic.Domain.csproj", "{EC20D683-FB5D-4385-85E3-7A34D46E5337}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Domain.Tests", "Tests\DentalClinic.Domain.Tests\DentalClinic.Domain.Tests.csproj", "{2A00901A-FFD1-474D-A9BF-7978149BE78B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Tests", "Tests\DentalClinic.Domain.Tests\DentalClinic.Tests.csproj", "{2A00901A-FFD1-474D-A9BF-7978149BE78B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.Application", "Core\DentalClinic.Application\DentalClinic.Application.csproj", "{D266103D-57D2-4CB7-9AA4-671FF3ADA9D9}"
 EndProject
